@@ -1,0 +1,583 @@
+# Logfile created on 2022-01-21 19:15:02 +0800 by logger.rb/v1.4.2
+[2022-01-21 19:15:02 +0800 users-MacBook-Pro.local (87304)] INFO : Starting the New Relic agent version 8.3.0 in "development" environment.
+[2022-01-21 19:15:02 +0800 users-MacBook-Pro.local (87304)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-21 19:15:02 +0800 users-MacBook-Pro.local (87304)] WARN : No configuration file found. Working directory = /Users/user/Desktop/cvwo-assignment/task-api
+[2022-01-21 19:15:02 +0800 users-MacBook-Pro.local (87304)] WARN : Looked in these locations (based on defaults): /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml.erb, /Users/user/.newrelic/newrelic.yml, /Users/user/newrelic.yml, /Users/user/.newrelic/newrelic.yml.erb, /Users/user/newrelic.yml.erb
+[2022-01-21 19:15:02 +0800 users-MacBook-Pro.local (87304)] INFO : Environment: development
+[2022-01-21 19:15:02 +0800 users-MacBook-Pro.local (87304)] INFO : No known dispatcher detected.
+[2022-01-21 19:15:02 +0800 users-MacBook-Pro.local (87304)] INFO : Application: development
+[2022-01-21 19:15:02 +0800 users-MacBook-Pro.local (87304)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-21 19:15:02 +0800 users-MacBook-Pro.local (87304)] INFO : Installing ActiveStorage 5 instrumentation
+[2022-01-21 19:15:02 +0800 users-MacBook-Pro.local (87304)] INFO : Installing notifications based Active Record instrumentation
+[2022-01-21 19:15:02 +0800 users-MacBook-Pro.local (87304)] INFO : Installing Net:HTTP Wrappers
+[2022-01-21 19:15:02 +0800 users-MacBook-Pro.local (87304)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-01-21 19:15:02 +0800 users-MacBook-Pro.local (87304)] INFO : Installing Rails 3+ middleware instrumentation
+[2022-01-21 19:15:02 +0800 users-MacBook-Pro.local (87304)] INFO : Installing Logger instrumentation
+[2022-01-21 19:15:02 +0800 users-MacBook-Pro.local (87304)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-01-21 19:15:02 +0800 users-MacBook-Pro.local (87304)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-01-21 19:15:02 +0800 users-MacBook-Pro.local (87304)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-01-21 19:15:02 +0800 users-MacBook-Pro.local (87304)] INFO : Installing ActiveJob instrumentation
+[2022-01-21 19:15:02 +0800 users-MacBook-Pro.local (87304)] INFO : Installing notifications based Action Controller instrumentation
+[2022-01-21 19:15:02 +0800 users-MacBook-Pro.local (87304)] INFO : Installing notification based Action View instrumentation
+[2022-01-21 19:15:02 +0800 users-MacBook-Pro.local (87304)] INFO : Installing notifications based Action Cable instrumentation
+[2022-01-21 19:15:02 +0800 users-MacBook-Pro.local (87304)] INFO : Finished instrumentation
+[2022-01-21 19:15:07 +0800 users-MacBook-Pro.local (87319)] INFO : Starting the New Relic agent version 8.3.0 in "development" environment.
+[2022-01-21 19:15:07 +0800 users-MacBook-Pro.local (87319)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-21 19:15:07 +0800 users-MacBook-Pro.local (87319)] WARN : No configuration file found. Working directory = /Users/user/Desktop/cvwo-assignment/task-api
+[2022-01-21 19:15:07 +0800 users-MacBook-Pro.local (87319)] WARN : Looked in these locations (based on defaults): /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml.erb, /Users/user/.newrelic/newrelic.yml, /Users/user/newrelic.yml, /Users/user/.newrelic/newrelic.yml.erb, /Users/user/newrelic.yml.erb
+[2022-01-21 19:15:07 +0800 users-MacBook-Pro.local (87319)] INFO : Environment: development
+[2022-01-21 19:15:07 +0800 users-MacBook-Pro.local (87319)] INFO : No known dispatcher detected.
+[2022-01-21 19:15:07 +0800 users-MacBook-Pro.local (87319)] INFO : Application: development
+[2022-01-21 19:15:07 +0800 users-MacBook-Pro.local (87319)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-21 19:15:07 +0800 users-MacBook-Pro.local (87319)] INFO : Installing ActiveStorage 5 instrumentation
+[2022-01-21 19:15:07 +0800 users-MacBook-Pro.local (87319)] INFO : Installing notifications based Active Record instrumentation
+[2022-01-21 19:15:07 +0800 users-MacBook-Pro.local (87319)] INFO : Installing Net:HTTP Wrappers
+[2022-01-21 19:15:07 +0800 users-MacBook-Pro.local (87319)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-01-21 19:15:07 +0800 users-MacBook-Pro.local (87319)] INFO : Installing Rails 3+ middleware instrumentation
+[2022-01-21 19:15:07 +0800 users-MacBook-Pro.local (87319)] INFO : Installing Logger instrumentation
+[2022-01-21 19:15:07 +0800 users-MacBook-Pro.local (87319)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-01-21 19:15:07 +0800 users-MacBook-Pro.local (87319)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-01-21 19:15:07 +0800 users-MacBook-Pro.local (87319)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-01-21 19:15:07 +0800 users-MacBook-Pro.local (87319)] INFO : Installing ActiveJob instrumentation
+[2022-01-21 19:15:07 +0800 users-MacBook-Pro.local (87319)] INFO : Installing notifications based Action Controller instrumentation
+[2022-01-21 19:15:07 +0800 users-MacBook-Pro.local (87319)] INFO : Installing notification based Action View instrumentation
+[2022-01-21 19:15:07 +0800 users-MacBook-Pro.local (87319)] INFO : Installing notifications based Action Cable instrumentation
+[2022-01-21 19:15:07 +0800 users-MacBook-Pro.local (87319)] INFO : Finished instrumentation
+[2022-01-21 19:18:15 +0800 users-MacBook-Pro.local (91044)] INFO : Starting the New Relic agent version 8.3.0 in "development" environment.
+[2022-01-21 19:18:15 +0800 users-MacBook-Pro.local (91044)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-21 19:18:15 +0800 users-MacBook-Pro.local (91044)] WARN : No configuration file found. Working directory = /Users/user/Desktop/cvwo-assignment/task-api
+[2022-01-21 19:18:15 +0800 users-MacBook-Pro.local (91044)] WARN : Looked in these locations (based on defaults): /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml.erb, /Users/user/.newrelic/newrelic.yml, /Users/user/newrelic.yml, /Users/user/.newrelic/newrelic.yml.erb, /Users/user/newrelic.yml.erb
+[2022-01-21 19:18:15 +0800 users-MacBook-Pro.local (91044)] INFO : Environment: development
+[2022-01-21 19:18:15 +0800 users-MacBook-Pro.local (91044)] INFO : No known dispatcher detected.
+[2022-01-21 19:18:15 +0800 users-MacBook-Pro.local (91044)] INFO : Application: development
+[2022-01-21 19:18:15 +0800 users-MacBook-Pro.local (91044)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-21 19:18:15 +0800 users-MacBook-Pro.local (91044)] INFO : Installing ActiveStorage 5 instrumentation
+[2022-01-21 19:18:15 +0800 users-MacBook-Pro.local (91044)] INFO : Installing notifications based Active Record instrumentation
+[2022-01-21 19:18:15 +0800 users-MacBook-Pro.local (91044)] INFO : Installing Net:HTTP Wrappers
+[2022-01-21 19:18:15 +0800 users-MacBook-Pro.local (91044)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-01-21 19:18:15 +0800 users-MacBook-Pro.local (91044)] INFO : Installing Rails 3+ middleware instrumentation
+[2022-01-21 19:18:15 +0800 users-MacBook-Pro.local (91044)] INFO : Installing Logger instrumentation
+[2022-01-21 19:18:15 +0800 users-MacBook-Pro.local (91044)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-01-21 19:18:15 +0800 users-MacBook-Pro.local (91044)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-01-21 19:18:15 +0800 users-MacBook-Pro.local (91044)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-01-21 19:18:15 +0800 users-MacBook-Pro.local (91044)] INFO : Installing ActiveJob instrumentation
+[2022-01-21 19:18:15 +0800 users-MacBook-Pro.local (91044)] INFO : Installing notifications based Action Controller instrumentation
+[2022-01-21 19:18:15 +0800 users-MacBook-Pro.local (91044)] INFO : Installing notification based Action View instrumentation
+[2022-01-21 19:18:15 +0800 users-MacBook-Pro.local (91044)] INFO : Installing notifications based Action Cable instrumentation
+[2022-01-21 19:18:15 +0800 users-MacBook-Pro.local (91044)] INFO : Finished instrumentation
+[2022-01-25 16:51:29 +0800 users-MacBook-Pro.local (8587)] INFO : Starting the New Relic agent version 8.3.0 in "development" environment.
+[2022-01-25 16:51:29 +0800 users-MacBook-Pro.local (8587)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-25 16:51:29 +0800 users-MacBook-Pro.local (8587)] WARN : No configuration file found. Working directory = /Users/user/Desktop/cvwo-assignment/task-api
+[2022-01-25 16:51:29 +0800 users-MacBook-Pro.local (8587)] WARN : Looked in these locations (based on defaults): /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml.erb, /Users/user/.newrelic/newrelic.yml, /Users/user/newrelic.yml, /Users/user/.newrelic/newrelic.yml.erb, /Users/user/newrelic.yml.erb
+[2022-01-25 16:51:29 +0800 users-MacBook-Pro.local (8587)] INFO : Environment: development
+[2022-01-25 16:51:29 +0800 users-MacBook-Pro.local (8587)] INFO : No known dispatcher detected.
+[2022-01-25 16:51:29 +0800 users-MacBook-Pro.local (8587)] INFO : Application: development
+[2022-01-25 16:51:29 +0800 users-MacBook-Pro.local (8587)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-25 16:51:29 +0800 users-MacBook-Pro.local (8587)] INFO : Installing ActiveStorage 5 instrumentation
+[2022-01-25 16:51:29 +0800 users-MacBook-Pro.local (8587)] INFO : Installing notifications based Active Record instrumentation
+[2022-01-25 16:51:29 +0800 users-MacBook-Pro.local (8587)] INFO : Installing Net:HTTP Wrappers
+[2022-01-25 16:51:29 +0800 users-MacBook-Pro.local (8587)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-01-25 16:51:29 +0800 users-MacBook-Pro.local (8587)] INFO : Installing Rails 3+ middleware instrumentation
+[2022-01-25 16:51:29 +0800 users-MacBook-Pro.local (8587)] INFO : Installing Logger instrumentation
+[2022-01-25 16:51:29 +0800 users-MacBook-Pro.local (8587)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-01-25 16:51:29 +0800 users-MacBook-Pro.local (8587)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-01-25 16:51:29 +0800 users-MacBook-Pro.local (8587)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-01-25 16:51:29 +0800 users-MacBook-Pro.local (8587)] INFO : Installing ActiveJob instrumentation
+[2022-01-25 16:51:29 +0800 users-MacBook-Pro.local (8587)] INFO : Installing notifications based Action Controller instrumentation
+[2022-01-25 16:51:29 +0800 users-MacBook-Pro.local (8587)] INFO : Installing notification based Action View instrumentation
+[2022-01-25 16:51:29 +0800 users-MacBook-Pro.local (8587)] INFO : Installing notifications based Action Cable instrumentation
+[2022-01-25 16:51:29 +0800 users-MacBook-Pro.local (8587)] INFO : Finished instrumentation
+[2022-01-25 17:39:22 +0800 users-MacBook-Pro.local (8791)] INFO : Starting the New Relic agent version 8.3.0 in "development" environment.
+[2022-01-25 17:39:22 +0800 users-MacBook-Pro.local (8791)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-25 17:39:22 +0800 users-MacBook-Pro.local (8791)] WARN : No configuration file found. Working directory = /Users/user/Desktop/cvwo-assignment/task-api
+[2022-01-25 17:39:22 +0800 users-MacBook-Pro.local (8791)] WARN : Looked in these locations (based on defaults): /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml.erb, /Users/user/.newrelic/newrelic.yml, /Users/user/newrelic.yml, /Users/user/.newrelic/newrelic.yml.erb, /Users/user/newrelic.yml.erb
+[2022-01-25 17:39:22 +0800 users-MacBook-Pro.local (8791)] INFO : Environment: development
+[2022-01-25 17:39:22 +0800 users-MacBook-Pro.local (8791)] INFO : No known dispatcher detected.
+[2022-01-25 17:39:22 +0800 users-MacBook-Pro.local (8791)] INFO : Application: development
+[2022-01-25 17:39:22 +0800 users-MacBook-Pro.local (8791)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-25 17:39:22 +0800 users-MacBook-Pro.local (8791)] INFO : Installing ActiveStorage 5 instrumentation
+[2022-01-25 17:39:22 +0800 users-MacBook-Pro.local (8791)] INFO : Installing notifications based Active Record instrumentation
+[2022-01-25 17:39:22 +0800 users-MacBook-Pro.local (8791)] INFO : Installing Net:HTTP Wrappers
+[2022-01-25 17:39:22 +0800 users-MacBook-Pro.local (8791)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-01-25 17:39:22 +0800 users-MacBook-Pro.local (8791)] INFO : Installing Rails 3+ middleware instrumentation
+[2022-01-25 17:39:22 +0800 users-MacBook-Pro.local (8791)] INFO : Installing Logger instrumentation
+[2022-01-25 17:39:22 +0800 users-MacBook-Pro.local (8791)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-01-25 17:39:22 +0800 users-MacBook-Pro.local (8791)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-01-25 17:39:22 +0800 users-MacBook-Pro.local (8791)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-01-25 17:39:22 +0800 users-MacBook-Pro.local (8791)] INFO : Installing ActiveJob instrumentation
+[2022-01-25 17:39:22 +0800 users-MacBook-Pro.local (8791)] INFO : Installing notifications based Action Controller instrumentation
+[2022-01-25 17:39:22 +0800 users-MacBook-Pro.local (8791)] INFO : Installing notification based Action View instrumentation
+[2022-01-25 17:39:22 +0800 users-MacBook-Pro.local (8791)] INFO : Installing notifications based Action Cable instrumentation
+[2022-01-25 17:39:22 +0800 users-MacBook-Pro.local (8791)] INFO : Finished instrumentation
+[2022-01-25 17:39:28 +0800 users-MacBook-Pro.local (8799)] INFO : Starting the New Relic agent version 8.3.0 in "development" environment.
+[2022-01-25 17:39:28 +0800 users-MacBook-Pro.local (8799)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-25 17:39:28 +0800 users-MacBook-Pro.local (8799)] WARN : No configuration file found. Working directory = /Users/user/Desktop/cvwo-assignment/task-api
+[2022-01-25 17:39:28 +0800 users-MacBook-Pro.local (8799)] WARN : Looked in these locations (based on defaults): /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml.erb, /Users/user/.newrelic/newrelic.yml, /Users/user/newrelic.yml, /Users/user/.newrelic/newrelic.yml.erb, /Users/user/newrelic.yml.erb
+[2022-01-25 17:39:28 +0800 users-MacBook-Pro.local (8799)] INFO : Environment: development
+[2022-01-25 17:39:28 +0800 users-MacBook-Pro.local (8799)] INFO : No known dispatcher detected.
+[2022-01-25 17:39:28 +0800 users-MacBook-Pro.local (8799)] INFO : Application: development
+[2022-01-25 17:39:28 +0800 users-MacBook-Pro.local (8799)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-25 17:39:28 +0800 users-MacBook-Pro.local (8799)] INFO : Installing ActiveStorage 5 instrumentation
+[2022-01-25 17:39:28 +0800 users-MacBook-Pro.local (8799)] INFO : Installing notifications based Active Record instrumentation
+[2022-01-25 17:39:28 +0800 users-MacBook-Pro.local (8799)] INFO : Installing Net:HTTP Wrappers
+[2022-01-25 17:39:28 +0800 users-MacBook-Pro.local (8799)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-01-25 17:39:28 +0800 users-MacBook-Pro.local (8799)] INFO : Installing Rails 3+ middleware instrumentation
+[2022-01-25 17:39:28 +0800 users-MacBook-Pro.local (8799)] INFO : Installing Logger instrumentation
+[2022-01-25 17:39:28 +0800 users-MacBook-Pro.local (8799)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-01-25 17:39:28 +0800 users-MacBook-Pro.local (8799)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-01-25 17:39:28 +0800 users-MacBook-Pro.local (8799)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-01-25 17:39:28 +0800 users-MacBook-Pro.local (8799)] INFO : Installing ActiveJob instrumentation
+[2022-01-25 17:39:28 +0800 users-MacBook-Pro.local (8799)] INFO : Installing notifications based Action Controller instrumentation
+[2022-01-25 17:39:28 +0800 users-MacBook-Pro.local (8799)] INFO : Installing notification based Action View instrumentation
+[2022-01-25 17:39:28 +0800 users-MacBook-Pro.local (8799)] INFO : Installing notifications based Action Cable instrumentation
+[2022-01-25 17:39:28 +0800 users-MacBook-Pro.local (8799)] INFO : Finished instrumentation
+[2022-01-25 17:41:00 +0800 users-MacBook-Pro.local (8824)] INFO : Starting the New Relic agent version 8.3.0 in "development" environment.
+[2022-01-25 17:41:00 +0800 users-MacBook-Pro.local (8824)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-25 17:41:00 +0800 users-MacBook-Pro.local (8824)] WARN : No configuration file found. Working directory = /Users/user/Desktop/cvwo-assignment/task-api
+[2022-01-25 17:41:00 +0800 users-MacBook-Pro.local (8824)] WARN : Looked in these locations (based on defaults): /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml.erb, /Users/user/.newrelic/newrelic.yml, /Users/user/newrelic.yml, /Users/user/.newrelic/newrelic.yml.erb, /Users/user/newrelic.yml.erb
+[2022-01-25 17:41:00 +0800 users-MacBook-Pro.local (8824)] INFO : Environment: development
+[2022-01-25 17:41:00 +0800 users-MacBook-Pro.local (8824)] INFO : No known dispatcher detected.
+[2022-01-25 17:41:00 +0800 users-MacBook-Pro.local (8824)] INFO : Application: development
+[2022-01-25 17:41:00 +0800 users-MacBook-Pro.local (8824)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-25 17:41:00 +0800 users-MacBook-Pro.local (8824)] INFO : Installing ActiveStorage 5 instrumentation
+[2022-01-25 17:41:00 +0800 users-MacBook-Pro.local (8824)] INFO : Installing notifications based Active Record instrumentation
+[2022-01-25 17:41:00 +0800 users-MacBook-Pro.local (8824)] INFO : Installing Net:HTTP Wrappers
+[2022-01-25 17:41:00 +0800 users-MacBook-Pro.local (8824)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-01-25 17:41:00 +0800 users-MacBook-Pro.local (8824)] INFO : Installing Rails 3+ middleware instrumentation
+[2022-01-25 17:41:00 +0800 users-MacBook-Pro.local (8824)] INFO : Installing Logger instrumentation
+[2022-01-25 17:41:00 +0800 users-MacBook-Pro.local (8824)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-01-25 17:41:00 +0800 users-MacBook-Pro.local (8824)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-01-25 17:41:00 +0800 users-MacBook-Pro.local (8824)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-01-25 17:41:00 +0800 users-MacBook-Pro.local (8824)] INFO : Installing ActiveJob instrumentation
+[2022-01-25 17:41:00 +0800 users-MacBook-Pro.local (8824)] INFO : Installing notifications based Action Controller instrumentation
+[2022-01-25 17:41:00 +0800 users-MacBook-Pro.local (8824)] INFO : Installing notification based Action View instrumentation
+[2022-01-25 17:41:00 +0800 users-MacBook-Pro.local (8824)] INFO : Installing notifications based Action Cable instrumentation
+[2022-01-25 17:41:00 +0800 users-MacBook-Pro.local (8824)] INFO : Finished instrumentation
+[2022-01-25 17:41:53 +0800 users-MacBook-Pro.local (8844)] INFO : Starting the New Relic agent version 8.3.0 in "development" environment.
+[2022-01-25 17:41:53 +0800 users-MacBook-Pro.local (8844)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-25 17:41:53 +0800 users-MacBook-Pro.local (8844)] WARN : No configuration file found. Working directory = /Users/user/Desktop/cvwo-assignment/task-api
+[2022-01-25 17:41:53 +0800 users-MacBook-Pro.local (8844)] WARN : Looked in these locations (based on defaults): /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml.erb, /Users/user/.newrelic/newrelic.yml, /Users/user/newrelic.yml, /Users/user/.newrelic/newrelic.yml.erb, /Users/user/newrelic.yml.erb
+[2022-01-25 17:41:53 +0800 users-MacBook-Pro.local (8844)] INFO : Environment: development
+[2022-01-25 17:41:53 +0800 users-MacBook-Pro.local (8844)] INFO : No known dispatcher detected.
+[2022-01-25 17:41:53 +0800 users-MacBook-Pro.local (8844)] INFO : Application: development
+[2022-01-25 17:41:53 +0800 users-MacBook-Pro.local (8844)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-25 17:41:53 +0800 users-MacBook-Pro.local (8844)] INFO : Installing ActiveStorage 5 instrumentation
+[2022-01-25 17:41:53 +0800 users-MacBook-Pro.local (8844)] INFO : Installing notifications based Active Record instrumentation
+[2022-01-25 17:41:53 +0800 users-MacBook-Pro.local (8844)] INFO : Installing Net:HTTP Wrappers
+[2022-01-25 17:41:53 +0800 users-MacBook-Pro.local (8844)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-01-25 17:41:53 +0800 users-MacBook-Pro.local (8844)] INFO : Installing Rails 3+ middleware instrumentation
+[2022-01-25 17:41:53 +0800 users-MacBook-Pro.local (8844)] INFO : Installing Logger instrumentation
+[2022-01-25 17:41:53 +0800 users-MacBook-Pro.local (8844)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-01-25 17:41:53 +0800 users-MacBook-Pro.local (8844)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-01-25 17:41:53 +0800 users-MacBook-Pro.local (8844)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-01-25 17:41:53 +0800 users-MacBook-Pro.local (8844)] INFO : Installing ActiveJob instrumentation
+[2022-01-25 17:41:53 +0800 users-MacBook-Pro.local (8844)] INFO : Installing notifications based Action Controller instrumentation
+[2022-01-25 17:41:53 +0800 users-MacBook-Pro.local (8844)] INFO : Installing notification based Action View instrumentation
+[2022-01-25 17:41:53 +0800 users-MacBook-Pro.local (8844)] INFO : Installing notifications based Action Cable instrumentation
+[2022-01-25 17:41:53 +0800 users-MacBook-Pro.local (8844)] INFO : Finished instrumentation
+[2022-01-25 17:41:57 +0800 users-MacBook-Pro.local (8851)] INFO : Starting the New Relic agent version 8.3.0 in "development" environment.
+[2022-01-25 17:41:57 +0800 users-MacBook-Pro.local (8851)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-25 17:41:57 +0800 users-MacBook-Pro.local (8851)] WARN : No configuration file found. Working directory = /Users/user/Desktop/cvwo-assignment/task-api
+[2022-01-25 17:41:57 +0800 users-MacBook-Pro.local (8851)] WARN : Looked in these locations (based on defaults): /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml.erb, /Users/user/.newrelic/newrelic.yml, /Users/user/newrelic.yml, /Users/user/.newrelic/newrelic.yml.erb, /Users/user/newrelic.yml.erb
+[2022-01-25 17:41:57 +0800 users-MacBook-Pro.local (8851)] INFO : Environment: development
+[2022-01-25 17:41:57 +0800 users-MacBook-Pro.local (8851)] INFO : No known dispatcher detected.
+[2022-01-25 17:41:57 +0800 users-MacBook-Pro.local (8851)] INFO : Application: development
+[2022-01-25 17:41:57 +0800 users-MacBook-Pro.local (8851)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-25 17:41:57 +0800 users-MacBook-Pro.local (8851)] INFO : Installing ActiveStorage 5 instrumentation
+[2022-01-25 17:41:57 +0800 users-MacBook-Pro.local (8851)] INFO : Installing notifications based Active Record instrumentation
+[2022-01-25 17:41:57 +0800 users-MacBook-Pro.local (8851)] INFO : Installing Net:HTTP Wrappers
+[2022-01-25 17:41:57 +0800 users-MacBook-Pro.local (8851)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-01-25 17:41:57 +0800 users-MacBook-Pro.local (8851)] INFO : Installing Rails 3+ middleware instrumentation
+[2022-01-25 17:41:57 +0800 users-MacBook-Pro.local (8851)] INFO : Installing Logger instrumentation
+[2022-01-25 17:41:57 +0800 users-MacBook-Pro.local (8851)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-01-25 17:41:57 +0800 users-MacBook-Pro.local (8851)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-01-25 17:41:57 +0800 users-MacBook-Pro.local (8851)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-01-25 17:41:57 +0800 users-MacBook-Pro.local (8851)] INFO : Installing ActiveJob instrumentation
+[2022-01-25 17:41:57 +0800 users-MacBook-Pro.local (8851)] INFO : Installing notifications based Action Controller instrumentation
+[2022-01-25 17:41:57 +0800 users-MacBook-Pro.local (8851)] INFO : Installing notification based Action View instrumentation
+[2022-01-25 17:41:57 +0800 users-MacBook-Pro.local (8851)] INFO : Installing notifications based Action Cable instrumentation
+[2022-01-25 17:41:57 +0800 users-MacBook-Pro.local (8851)] INFO : Finished instrumentation
+[2022-01-25 17:43:00 +0800 users-MacBook-Pro.local (8880)] INFO : Starting the New Relic agent version 8.3.0 in "development" environment.
+[2022-01-25 17:43:00 +0800 users-MacBook-Pro.local (8880)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-25 17:43:00 +0800 users-MacBook-Pro.local (8880)] WARN : No configuration file found. Working directory = /Users/user/Desktop/cvwo-assignment/task-api
+[2022-01-25 17:43:00 +0800 users-MacBook-Pro.local (8880)] WARN : Looked in these locations (based on defaults): /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml.erb, /Users/user/.newrelic/newrelic.yml, /Users/user/newrelic.yml, /Users/user/.newrelic/newrelic.yml.erb, /Users/user/newrelic.yml.erb
+[2022-01-25 17:43:00 +0800 users-MacBook-Pro.local (8880)] INFO : Environment: development
+[2022-01-25 17:43:00 +0800 users-MacBook-Pro.local (8880)] INFO : No known dispatcher detected.
+[2022-01-25 17:43:00 +0800 users-MacBook-Pro.local (8880)] INFO : Application: development
+[2022-01-25 17:43:00 +0800 users-MacBook-Pro.local (8880)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-25 17:43:00 +0800 users-MacBook-Pro.local (8880)] INFO : Installing ActiveStorage 5 instrumentation
+[2022-01-25 17:43:00 +0800 users-MacBook-Pro.local (8880)] INFO : Installing notifications based Active Record instrumentation
+[2022-01-25 17:43:00 +0800 users-MacBook-Pro.local (8880)] INFO : Installing Net:HTTP Wrappers
+[2022-01-25 17:43:00 +0800 users-MacBook-Pro.local (8880)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-01-25 17:43:00 +0800 users-MacBook-Pro.local (8880)] INFO : Installing Rails 3+ middleware instrumentation
+[2022-01-25 17:43:00 +0800 users-MacBook-Pro.local (8880)] INFO : Installing Logger instrumentation
+[2022-01-25 17:43:00 +0800 users-MacBook-Pro.local (8880)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-01-25 17:43:00 +0800 users-MacBook-Pro.local (8880)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-01-25 17:43:00 +0800 users-MacBook-Pro.local (8880)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-01-25 17:43:00 +0800 users-MacBook-Pro.local (8880)] INFO : Installing ActiveJob instrumentation
+[2022-01-25 17:43:00 +0800 users-MacBook-Pro.local (8880)] INFO : Installing notifications based Action Controller instrumentation
+[2022-01-25 17:43:00 +0800 users-MacBook-Pro.local (8880)] INFO : Installing notification based Action View instrumentation
+[2022-01-25 17:43:00 +0800 users-MacBook-Pro.local (8880)] INFO : Installing notifications based Action Cable instrumentation
+[2022-01-25 17:43:00 +0800 users-MacBook-Pro.local (8880)] INFO : Finished instrumentation
+[2022-01-25 17:43:44 +0800 users-MacBook-Pro.local (8897)] INFO : Starting the New Relic agent version 8.3.0 in "development" environment.
+[2022-01-25 17:43:44 +0800 users-MacBook-Pro.local (8897)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-25 17:43:44 +0800 users-MacBook-Pro.local (8897)] WARN : No configuration file found. Working directory = /Users/user/Desktop/cvwo-assignment/task-api
+[2022-01-25 17:43:44 +0800 users-MacBook-Pro.local (8897)] WARN : Looked in these locations (based on defaults): /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml.erb, /Users/user/.newrelic/newrelic.yml, /Users/user/newrelic.yml, /Users/user/.newrelic/newrelic.yml.erb, /Users/user/newrelic.yml.erb
+[2022-01-25 17:43:44 +0800 users-MacBook-Pro.local (8897)] INFO : Environment: development
+[2022-01-25 17:43:44 +0800 users-MacBook-Pro.local (8897)] INFO : No known dispatcher detected.
+[2022-01-25 17:43:44 +0800 users-MacBook-Pro.local (8897)] INFO : Application: development
+[2022-01-25 17:43:44 +0800 users-MacBook-Pro.local (8897)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-25 17:43:44 +0800 users-MacBook-Pro.local (8897)] INFO : Installing ActiveStorage 5 instrumentation
+[2022-01-25 17:43:44 +0800 users-MacBook-Pro.local (8897)] INFO : Installing notifications based Active Record instrumentation
+[2022-01-25 17:43:44 +0800 users-MacBook-Pro.local (8897)] INFO : Installing Net:HTTP Wrappers
+[2022-01-25 17:43:44 +0800 users-MacBook-Pro.local (8897)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-01-25 17:43:44 +0800 users-MacBook-Pro.local (8897)] INFO : Installing Rails 3+ middleware instrumentation
+[2022-01-25 17:43:44 +0800 users-MacBook-Pro.local (8897)] INFO : Installing Logger instrumentation
+[2022-01-25 17:43:44 +0800 users-MacBook-Pro.local (8897)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-01-25 17:43:44 +0800 users-MacBook-Pro.local (8897)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-01-25 17:43:44 +0800 users-MacBook-Pro.local (8897)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-01-25 17:43:44 +0800 users-MacBook-Pro.local (8897)] INFO : Installing ActiveJob instrumentation
+[2022-01-25 17:43:44 +0800 users-MacBook-Pro.local (8897)] INFO : Installing notifications based Action Controller instrumentation
+[2022-01-25 17:43:44 +0800 users-MacBook-Pro.local (8897)] INFO : Installing notification based Action View instrumentation
+[2022-01-25 17:43:44 +0800 users-MacBook-Pro.local (8897)] INFO : Installing notifications based Action Cable instrumentation
+[2022-01-25 17:43:44 +0800 users-MacBook-Pro.local (8897)] INFO : Finished instrumentation
+[2022-01-25 17:43:49 +0800 users-MacBook-Pro.local (8904)] INFO : Starting the New Relic agent version 8.3.0 in "development" environment.
+[2022-01-25 17:43:49 +0800 users-MacBook-Pro.local (8904)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-25 17:43:49 +0800 users-MacBook-Pro.local (8904)] WARN : No configuration file found. Working directory = /Users/user/Desktop/cvwo-assignment/task-api
+[2022-01-25 17:43:49 +0800 users-MacBook-Pro.local (8904)] WARN : Looked in these locations (based on defaults): /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml.erb, /Users/user/.newrelic/newrelic.yml, /Users/user/newrelic.yml, /Users/user/.newrelic/newrelic.yml.erb, /Users/user/newrelic.yml.erb
+[2022-01-25 17:43:49 +0800 users-MacBook-Pro.local (8904)] INFO : Environment: development
+[2022-01-25 17:43:49 +0800 users-MacBook-Pro.local (8904)] INFO : No known dispatcher detected.
+[2022-01-25 17:43:49 +0800 users-MacBook-Pro.local (8904)] INFO : Application: development
+[2022-01-25 17:43:49 +0800 users-MacBook-Pro.local (8904)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-25 17:43:49 +0800 users-MacBook-Pro.local (8904)] INFO : Installing ActiveStorage 5 instrumentation
+[2022-01-25 17:43:49 +0800 users-MacBook-Pro.local (8904)] INFO : Installing notifications based Active Record instrumentation
+[2022-01-25 17:43:49 +0800 users-MacBook-Pro.local (8904)] INFO : Installing Net:HTTP Wrappers
+[2022-01-25 17:43:49 +0800 users-MacBook-Pro.local (8904)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-01-25 17:43:49 +0800 users-MacBook-Pro.local (8904)] INFO : Installing Rails 3+ middleware instrumentation
+[2022-01-25 17:43:49 +0800 users-MacBook-Pro.local (8904)] INFO : Installing Logger instrumentation
+[2022-01-25 17:43:49 +0800 users-MacBook-Pro.local (8904)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-01-25 17:43:49 +0800 users-MacBook-Pro.local (8904)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-01-25 17:43:49 +0800 users-MacBook-Pro.local (8904)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-01-25 17:43:49 +0800 users-MacBook-Pro.local (8904)] INFO : Installing ActiveJob instrumentation
+[2022-01-25 17:43:49 +0800 users-MacBook-Pro.local (8904)] INFO : Installing notifications based Action Controller instrumentation
+[2022-01-25 17:43:49 +0800 users-MacBook-Pro.local (8904)] INFO : Installing notification based Action View instrumentation
+[2022-01-25 17:43:49 +0800 users-MacBook-Pro.local (8904)] INFO : Installing notifications based Action Cable instrumentation
+[2022-01-25 17:43:49 +0800 users-MacBook-Pro.local (8904)] INFO : Finished instrumentation
+[2022-01-25 17:46:37 +0800 users-MacBook-Pro.local (8940)] INFO : Starting the New Relic agent version 8.3.0 in "development" environment.
+[2022-01-25 17:46:37 +0800 users-MacBook-Pro.local (8940)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-25 17:46:37 +0800 users-MacBook-Pro.local (8940)] WARN : No configuration file found. Working directory = /Users/user/Desktop/cvwo-assignment/task-api
+[2022-01-25 17:46:37 +0800 users-MacBook-Pro.local (8940)] WARN : Looked in these locations (based on defaults): /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml.erb, /Users/user/.newrelic/newrelic.yml, /Users/user/newrelic.yml, /Users/user/.newrelic/newrelic.yml.erb, /Users/user/newrelic.yml.erb
+[2022-01-25 17:46:37 +0800 users-MacBook-Pro.local (8940)] INFO : Environment: development
+[2022-01-25 17:46:37 +0800 users-MacBook-Pro.local (8940)] INFO : No known dispatcher detected.
+[2022-01-25 17:46:37 +0800 users-MacBook-Pro.local (8940)] INFO : Application: development
+[2022-01-25 17:46:37 +0800 users-MacBook-Pro.local (8940)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-25 17:46:37 +0800 users-MacBook-Pro.local (8940)] INFO : Installing ActiveStorage 5 instrumentation
+[2022-01-25 17:46:37 +0800 users-MacBook-Pro.local (8940)] INFO : Installing notifications based Active Record instrumentation
+[2022-01-25 17:46:37 +0800 users-MacBook-Pro.local (8940)] INFO : Installing Net:HTTP Wrappers
+[2022-01-25 17:46:37 +0800 users-MacBook-Pro.local (8940)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-01-25 17:46:37 +0800 users-MacBook-Pro.local (8940)] INFO : Installing Rails 3+ middleware instrumentation
+[2022-01-25 17:46:37 +0800 users-MacBook-Pro.local (8940)] INFO : Installing Logger instrumentation
+[2022-01-25 17:46:37 +0800 users-MacBook-Pro.local (8940)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-01-25 17:46:37 +0800 users-MacBook-Pro.local (8940)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-01-25 17:46:37 +0800 users-MacBook-Pro.local (8940)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-01-25 17:46:37 +0800 users-MacBook-Pro.local (8940)] INFO : Installing ActiveJob instrumentation
+[2022-01-25 17:46:37 +0800 users-MacBook-Pro.local (8940)] INFO : Installing notifications based Action Controller instrumentation
+[2022-01-25 17:46:37 +0800 users-MacBook-Pro.local (8940)] INFO : Installing notification based Action View instrumentation
+[2022-01-25 17:46:37 +0800 users-MacBook-Pro.local (8940)] INFO : Installing notifications based Action Cable instrumentation
+[2022-01-25 17:46:37 +0800 users-MacBook-Pro.local (8940)] INFO : Finished instrumentation
+[2022-01-25 17:46:41 +0800 users-MacBook-Pro.local (8948)] INFO : Starting the New Relic agent version 8.3.0 in "development" environment.
+[2022-01-25 17:46:41 +0800 users-MacBook-Pro.local (8948)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-25 17:46:41 +0800 users-MacBook-Pro.local (8948)] WARN : No configuration file found. Working directory = /Users/user/Desktop/cvwo-assignment/task-api
+[2022-01-25 17:46:41 +0800 users-MacBook-Pro.local (8948)] WARN : Looked in these locations (based on defaults): /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml.erb, /Users/user/.newrelic/newrelic.yml, /Users/user/newrelic.yml, /Users/user/.newrelic/newrelic.yml.erb, /Users/user/newrelic.yml.erb
+[2022-01-25 17:46:41 +0800 users-MacBook-Pro.local (8948)] INFO : Environment: development
+[2022-01-25 17:46:41 +0800 users-MacBook-Pro.local (8948)] INFO : No known dispatcher detected.
+[2022-01-25 17:46:41 +0800 users-MacBook-Pro.local (8948)] INFO : Application: development
+[2022-01-25 17:46:41 +0800 users-MacBook-Pro.local (8948)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-25 17:46:41 +0800 users-MacBook-Pro.local (8948)] INFO : Installing ActiveStorage 5 instrumentation
+[2022-01-25 17:46:41 +0800 users-MacBook-Pro.local (8948)] INFO : Installing notifications based Active Record instrumentation
+[2022-01-25 17:46:41 +0800 users-MacBook-Pro.local (8948)] INFO : Installing Net:HTTP Wrappers
+[2022-01-25 17:46:41 +0800 users-MacBook-Pro.local (8948)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-01-25 17:46:41 +0800 users-MacBook-Pro.local (8948)] INFO : Installing Rails 3+ middleware instrumentation
+[2022-01-25 17:46:41 +0800 users-MacBook-Pro.local (8948)] INFO : Installing Logger instrumentation
+[2022-01-25 17:46:41 +0800 users-MacBook-Pro.local (8948)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-01-25 17:46:41 +0800 users-MacBook-Pro.local (8948)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-01-25 17:46:41 +0800 users-MacBook-Pro.local (8948)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-01-25 17:46:41 +0800 users-MacBook-Pro.local (8948)] INFO : Installing ActiveJob instrumentation
+[2022-01-25 17:46:41 +0800 users-MacBook-Pro.local (8948)] INFO : Installing notifications based Action Controller instrumentation
+[2022-01-25 17:46:41 +0800 users-MacBook-Pro.local (8948)] INFO : Installing notification based Action View instrumentation
+[2022-01-25 17:46:41 +0800 users-MacBook-Pro.local (8948)] INFO : Installing notifications based Action Cable instrumentation
+[2022-01-25 17:46:41 +0800 users-MacBook-Pro.local (8948)] INFO : Finished instrumentation
+[2022-01-25 17:46:58 +0800 users-MacBook-Pro.local (8968)] INFO : Starting the New Relic agent version 8.3.0 in "development" environment.
+[2022-01-25 17:46:58 +0800 users-MacBook-Pro.local (8968)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-25 17:46:58 +0800 users-MacBook-Pro.local (8968)] WARN : No configuration file found. Working directory = /Users/user/Desktop/cvwo-assignment/task-api
+[2022-01-25 17:46:58 +0800 users-MacBook-Pro.local (8968)] WARN : Looked in these locations (based on defaults): /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml.erb, /Users/user/.newrelic/newrelic.yml, /Users/user/newrelic.yml, /Users/user/.newrelic/newrelic.yml.erb, /Users/user/newrelic.yml.erb
+[2022-01-25 17:46:58 +0800 users-MacBook-Pro.local (8968)] INFO : Environment: development
+[2022-01-25 17:46:58 +0800 users-MacBook-Pro.local (8968)] INFO : No known dispatcher detected.
+[2022-01-25 17:46:58 +0800 users-MacBook-Pro.local (8968)] INFO : Application: development
+[2022-01-25 17:46:58 +0800 users-MacBook-Pro.local (8968)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-25 17:46:58 +0800 users-MacBook-Pro.local (8968)] INFO : Installing ActiveStorage 5 instrumentation
+[2022-01-25 17:46:58 +0800 users-MacBook-Pro.local (8968)] INFO : Installing notifications based Active Record instrumentation
+[2022-01-25 17:46:58 +0800 users-MacBook-Pro.local (8968)] INFO : Installing Net:HTTP Wrappers
+[2022-01-25 17:46:58 +0800 users-MacBook-Pro.local (8968)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-01-25 17:46:58 +0800 users-MacBook-Pro.local (8968)] INFO : Installing Rails 3+ middleware instrumentation
+[2022-01-25 17:46:58 +0800 users-MacBook-Pro.local (8968)] INFO : Installing Logger instrumentation
+[2022-01-25 17:46:58 +0800 users-MacBook-Pro.local (8968)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-01-25 17:46:58 +0800 users-MacBook-Pro.local (8968)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-01-25 17:46:58 +0800 users-MacBook-Pro.local (8968)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-01-25 17:46:58 +0800 users-MacBook-Pro.local (8968)] INFO : Installing ActiveJob instrumentation
+[2022-01-25 17:46:58 +0800 users-MacBook-Pro.local (8968)] INFO : Installing notifications based Action Controller instrumentation
+[2022-01-25 17:46:58 +0800 users-MacBook-Pro.local (8968)] INFO : Installing notification based Action View instrumentation
+[2022-01-25 17:46:58 +0800 users-MacBook-Pro.local (8968)] INFO : Installing notifications based Action Cable instrumentation
+[2022-01-25 17:46:58 +0800 users-MacBook-Pro.local (8968)] INFO : Finished instrumentation
+[2022-01-25 17:47:40 +0800 users-MacBook-Pro.local (8984)] INFO : Starting the New Relic agent version 8.3.0 in "development" environment.
+[2022-01-25 17:47:40 +0800 users-MacBook-Pro.local (8984)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-25 17:47:40 +0800 users-MacBook-Pro.local (8984)] WARN : No configuration file found. Working directory = /Users/user/Desktop/cvwo-assignment/task-api
+[2022-01-25 17:47:40 +0800 users-MacBook-Pro.local (8984)] WARN : Looked in these locations (based on defaults): /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml.erb, /Users/user/.newrelic/newrelic.yml, /Users/user/newrelic.yml, /Users/user/.newrelic/newrelic.yml.erb, /Users/user/newrelic.yml.erb
+[2022-01-25 17:47:40 +0800 users-MacBook-Pro.local (8984)] INFO : Environment: development
+[2022-01-25 17:47:40 +0800 users-MacBook-Pro.local (8984)] INFO : No known dispatcher detected.
+[2022-01-25 17:47:40 +0800 users-MacBook-Pro.local (8984)] INFO : Application: development
+[2022-01-25 17:47:40 +0800 users-MacBook-Pro.local (8984)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-25 17:47:40 +0800 users-MacBook-Pro.local (8984)] INFO : Installing ActiveStorage 5 instrumentation
+[2022-01-25 17:47:40 +0800 users-MacBook-Pro.local (8984)] INFO : Installing notifications based Active Record instrumentation
+[2022-01-25 17:47:40 +0800 users-MacBook-Pro.local (8984)] INFO : Installing Net:HTTP Wrappers
+[2022-01-25 17:47:40 +0800 users-MacBook-Pro.local (8984)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-01-25 17:47:40 +0800 users-MacBook-Pro.local (8984)] INFO : Installing Rails 3+ middleware instrumentation
+[2022-01-25 17:47:40 +0800 users-MacBook-Pro.local (8984)] INFO : Installing Logger instrumentation
+[2022-01-25 17:47:40 +0800 users-MacBook-Pro.local (8984)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-01-25 17:47:40 +0800 users-MacBook-Pro.local (8984)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-01-25 17:47:40 +0800 users-MacBook-Pro.local (8984)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-01-25 17:47:40 +0800 users-MacBook-Pro.local (8984)] INFO : Installing ActiveJob instrumentation
+[2022-01-25 17:47:40 +0800 users-MacBook-Pro.local (8984)] INFO : Installing notifications based Action Controller instrumentation
+[2022-01-25 17:47:40 +0800 users-MacBook-Pro.local (8984)] INFO : Installing notification based Action View instrumentation
+[2022-01-25 17:47:40 +0800 users-MacBook-Pro.local (8984)] INFO : Installing notifications based Action Cable instrumentation
+[2022-01-25 17:47:40 +0800 users-MacBook-Pro.local (8984)] INFO : Finished instrumentation
+[2022-01-25 17:47:48 +0800 users-MacBook-Pro.local (8996)] INFO : Starting the New Relic agent version 8.3.0 in "development" environment.
+[2022-01-25 17:47:48 +0800 users-MacBook-Pro.local (8996)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-25 17:47:48 +0800 users-MacBook-Pro.local (8996)] WARN : No configuration file found. Working directory = /Users/user/Desktop/cvwo-assignment/task-api
+[2022-01-25 17:47:48 +0800 users-MacBook-Pro.local (8996)] WARN : Looked in these locations (based on defaults): /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml.erb, /Users/user/.newrelic/newrelic.yml, /Users/user/newrelic.yml, /Users/user/.newrelic/newrelic.yml.erb, /Users/user/newrelic.yml.erb
+[2022-01-25 17:47:48 +0800 users-MacBook-Pro.local (8996)] INFO : Environment: development
+[2022-01-25 17:47:48 +0800 users-MacBook-Pro.local (8996)] INFO : No known dispatcher detected.
+[2022-01-25 17:47:48 +0800 users-MacBook-Pro.local (8996)] INFO : Application: development
+[2022-01-25 17:47:48 +0800 users-MacBook-Pro.local (8996)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-25 17:47:48 +0800 users-MacBook-Pro.local (8996)] INFO : Installing ActiveStorage 5 instrumentation
+[2022-01-25 17:47:48 +0800 users-MacBook-Pro.local (8996)] INFO : Installing notifications based Active Record instrumentation
+[2022-01-25 17:47:48 +0800 users-MacBook-Pro.local (8996)] INFO : Installing Net:HTTP Wrappers
+[2022-01-25 17:47:48 +0800 users-MacBook-Pro.local (8996)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-01-25 17:47:48 +0800 users-MacBook-Pro.local (8996)] INFO : Installing Rails 3+ middleware instrumentation
+[2022-01-25 17:47:48 +0800 users-MacBook-Pro.local (8996)] INFO : Installing Logger instrumentation
+[2022-01-25 17:47:48 +0800 users-MacBook-Pro.local (8996)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-01-25 17:47:48 +0800 users-MacBook-Pro.local (8996)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-01-25 17:47:48 +0800 users-MacBook-Pro.local (8996)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-01-25 17:47:48 +0800 users-MacBook-Pro.local (8996)] INFO : Installing ActiveJob instrumentation
+[2022-01-25 17:47:48 +0800 users-MacBook-Pro.local (8996)] INFO : Installing notifications based Action Controller instrumentation
+[2022-01-25 17:47:48 +0800 users-MacBook-Pro.local (8996)] INFO : Installing notification based Action View instrumentation
+[2022-01-25 17:47:48 +0800 users-MacBook-Pro.local (8996)] INFO : Installing notifications based Action Cable instrumentation
+[2022-01-25 17:47:48 +0800 users-MacBook-Pro.local (8996)] INFO : Finished instrumentation
+[2022-01-25 17:48:11 +0800 users-MacBook-Pro.local (9014)] INFO : Starting the New Relic agent version 8.3.0 in "development" environment.
+[2022-01-25 17:48:11 +0800 users-MacBook-Pro.local (9014)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-25 17:48:11 +0800 users-MacBook-Pro.local (9014)] WARN : No configuration file found. Working directory = /Users/user/Desktop/cvwo-assignment/task-api
+[2022-01-25 17:48:11 +0800 users-MacBook-Pro.local (9014)] WARN : Looked in these locations (based on defaults): /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml.erb, /Users/user/.newrelic/newrelic.yml, /Users/user/newrelic.yml, /Users/user/.newrelic/newrelic.yml.erb, /Users/user/newrelic.yml.erb
+[2022-01-25 17:48:11 +0800 users-MacBook-Pro.local (9014)] INFO : Environment: development
+[2022-01-25 17:48:11 +0800 users-MacBook-Pro.local (9014)] INFO : No known dispatcher detected.
+[2022-01-25 17:48:11 +0800 users-MacBook-Pro.local (9014)] INFO : Application: development
+[2022-01-25 17:48:11 +0800 users-MacBook-Pro.local (9014)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-25 17:48:11 +0800 users-MacBook-Pro.local (9014)] INFO : Installing ActiveStorage 5 instrumentation
+[2022-01-25 17:48:11 +0800 users-MacBook-Pro.local (9014)] INFO : Installing notifications based Active Record instrumentation
+[2022-01-25 17:48:11 +0800 users-MacBook-Pro.local (9014)] INFO : Installing Net:HTTP Wrappers
+[2022-01-25 17:48:11 +0800 users-MacBook-Pro.local (9014)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-01-25 17:48:11 +0800 users-MacBook-Pro.local (9014)] INFO : Installing Rails 3+ middleware instrumentation
+[2022-01-25 17:48:11 +0800 users-MacBook-Pro.local (9014)] INFO : Installing Logger instrumentation
+[2022-01-25 17:48:11 +0800 users-MacBook-Pro.local (9014)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-01-25 17:48:11 +0800 users-MacBook-Pro.local (9014)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-01-25 17:48:11 +0800 users-MacBook-Pro.local (9014)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-01-25 17:48:11 +0800 users-MacBook-Pro.local (9014)] INFO : Installing ActiveJob instrumentation
+[2022-01-25 17:48:11 +0800 users-MacBook-Pro.local (9014)] INFO : Installing notifications based Action Controller instrumentation
+[2022-01-25 17:48:11 +0800 users-MacBook-Pro.local (9014)] INFO : Installing notification based Action View instrumentation
+[2022-01-25 17:48:11 +0800 users-MacBook-Pro.local (9014)] INFO : Installing notifications based Action Cable instrumentation
+[2022-01-25 17:48:11 +0800 users-MacBook-Pro.local (9014)] INFO : Finished instrumentation
+[2022-01-25 17:48:11 +0800 users-MacBook-Pro.local (9014)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-25 17:48:22 +0800 users-MacBook-Pro.local (9014)] WARN : Agent received a ForceDisconnectException from the server, disconnecting. (410: Gone)
+[2022-01-25 17:51:19 +0800 users-MacBook-Pro.local (9120)] INFO : Starting the New Relic agent version 8.3.0 in "development" environment.
+[2022-01-25 17:51:19 +0800 users-MacBook-Pro.local (9120)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-25 17:51:19 +0800 users-MacBook-Pro.local (9120)] WARN : No configuration file found. Working directory = /Users/user/Desktop/cvwo-assignment/task-api
+[2022-01-25 17:51:19 +0800 users-MacBook-Pro.local (9120)] WARN : Looked in these locations (based on defaults): /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml.erb, /Users/user/.newrelic/newrelic.yml, /Users/user/newrelic.yml, /Users/user/.newrelic/newrelic.yml.erb, /Users/user/newrelic.yml.erb
+[2022-01-25 17:51:19 +0800 users-MacBook-Pro.local (9120)] INFO : Environment: development
+[2022-01-25 17:51:19 +0800 users-MacBook-Pro.local (9120)] INFO : No known dispatcher detected.
+[2022-01-25 17:51:19 +0800 users-MacBook-Pro.local (9120)] INFO : Application: development
+[2022-01-25 17:51:19 +0800 users-MacBook-Pro.local (9120)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-25 17:51:19 +0800 users-MacBook-Pro.local (9120)] INFO : Installing ActiveStorage 5 instrumentation
+[2022-01-25 17:51:19 +0800 users-MacBook-Pro.local (9120)] INFO : Installing notifications based Active Record instrumentation
+[2022-01-25 17:51:19 +0800 users-MacBook-Pro.local (9120)] INFO : Installing Net:HTTP Wrappers
+[2022-01-25 17:51:19 +0800 users-MacBook-Pro.local (9120)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-01-25 17:51:19 +0800 users-MacBook-Pro.local (9120)] INFO : Installing Rails 3+ middleware instrumentation
+[2022-01-25 17:51:19 +0800 users-MacBook-Pro.local (9120)] INFO : Installing Logger instrumentation
+[2022-01-25 17:51:19 +0800 users-MacBook-Pro.local (9120)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-01-25 17:51:19 +0800 users-MacBook-Pro.local (9120)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-01-25 17:51:19 +0800 users-MacBook-Pro.local (9120)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-01-25 17:51:19 +0800 users-MacBook-Pro.local (9120)] INFO : Installing ActiveJob instrumentation
+[2022-01-25 17:51:19 +0800 users-MacBook-Pro.local (9120)] INFO : Installing notifications based Action Controller instrumentation
+[2022-01-25 17:51:19 +0800 users-MacBook-Pro.local (9120)] INFO : Installing notification based Action View instrumentation
+[2022-01-25 17:51:19 +0800 users-MacBook-Pro.local (9120)] INFO : Installing notifications based Action Cable instrumentation
+[2022-01-25 17:51:19 +0800 users-MacBook-Pro.local (9120)] INFO : Finished instrumentation
+[2022-01-25 17:51:29 +0800 users-MacBook-Pro.local (9139)] INFO : Starting the New Relic agent version 8.3.0 in "development" environment.
+[2022-01-25 17:51:29 +0800 users-MacBook-Pro.local (9139)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-25 17:51:29 +0800 users-MacBook-Pro.local (9139)] WARN : No configuration file found. Working directory = /Users/user/Desktop/cvwo-assignment/task-api
+[2022-01-25 17:51:29 +0800 users-MacBook-Pro.local (9139)] WARN : Looked in these locations (based on defaults): /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml.erb, /Users/user/.newrelic/newrelic.yml, /Users/user/newrelic.yml, /Users/user/.newrelic/newrelic.yml.erb, /Users/user/newrelic.yml.erb
+[2022-01-25 17:51:29 +0800 users-MacBook-Pro.local (9139)] INFO : Environment: development
+[2022-01-25 17:51:29 +0800 users-MacBook-Pro.local (9139)] INFO : No known dispatcher detected.
+[2022-01-25 17:51:29 +0800 users-MacBook-Pro.local (9139)] INFO : Application: development
+[2022-01-25 17:51:29 +0800 users-MacBook-Pro.local (9139)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-25 17:51:29 +0800 users-MacBook-Pro.local (9139)] INFO : Installing ActiveStorage 5 instrumentation
+[2022-01-25 17:51:29 +0800 users-MacBook-Pro.local (9139)] INFO : Installing notifications based Active Record instrumentation
+[2022-01-25 17:51:29 +0800 users-MacBook-Pro.local (9139)] INFO : Installing Net:HTTP Wrappers
+[2022-01-25 17:51:29 +0800 users-MacBook-Pro.local (9139)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-01-25 17:51:29 +0800 users-MacBook-Pro.local (9139)] INFO : Installing Rails 3+ middleware instrumentation
+[2022-01-25 17:51:29 +0800 users-MacBook-Pro.local (9139)] INFO : Installing Logger instrumentation
+[2022-01-25 17:51:29 +0800 users-MacBook-Pro.local (9139)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-01-25 17:51:29 +0800 users-MacBook-Pro.local (9139)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-01-25 17:51:29 +0800 users-MacBook-Pro.local (9139)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-01-25 17:51:29 +0800 users-MacBook-Pro.local (9139)] INFO : Installing ActiveJob instrumentation
+[2022-01-25 17:51:29 +0800 users-MacBook-Pro.local (9139)] INFO : Installing notifications based Action Controller instrumentation
+[2022-01-25 17:51:29 +0800 users-MacBook-Pro.local (9139)] INFO : Installing notification based Action View instrumentation
+[2022-01-25 17:51:29 +0800 users-MacBook-Pro.local (9139)] INFO : Installing notifications based Action Cable instrumentation
+[2022-01-25 17:51:29 +0800 users-MacBook-Pro.local (9139)] INFO : Finished instrumentation
+[2022-01-25 17:51:44 +0800 users-MacBook-Pro.local (9150)] INFO : Starting the New Relic agent version 8.3.0 in "development" environment.
+[2022-01-25 17:51:44 +0800 users-MacBook-Pro.local (9150)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-25 17:51:44 +0800 users-MacBook-Pro.local (9150)] WARN : No configuration file found. Working directory = /Users/user/Desktop/cvwo-assignment/task-api
+[2022-01-25 17:51:44 +0800 users-MacBook-Pro.local (9150)] WARN : Looked in these locations (based on defaults): /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml.erb, /Users/user/.newrelic/newrelic.yml, /Users/user/newrelic.yml, /Users/user/.newrelic/newrelic.yml.erb, /Users/user/newrelic.yml.erb
+[2022-01-25 17:51:44 +0800 users-MacBook-Pro.local (9150)] INFO : Environment: development
+[2022-01-25 17:51:44 +0800 users-MacBook-Pro.local (9150)] INFO : No known dispatcher detected.
+[2022-01-25 17:51:44 +0800 users-MacBook-Pro.local (9150)] INFO : Application: development
+[2022-01-25 17:51:44 +0800 users-MacBook-Pro.local (9150)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-25 17:51:45 +0800 users-MacBook-Pro.local (9150)] INFO : Installing ActiveStorage 5 instrumentation
+[2022-01-25 17:51:45 +0800 users-MacBook-Pro.local (9150)] INFO : Installing notifications based Active Record instrumentation
+[2022-01-25 17:51:45 +0800 users-MacBook-Pro.local (9150)] INFO : Installing Net:HTTP Wrappers
+[2022-01-25 17:51:45 +0800 users-MacBook-Pro.local (9150)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-01-25 17:51:45 +0800 users-MacBook-Pro.local (9150)] INFO : Installing Rails 3+ middleware instrumentation
+[2022-01-25 17:51:45 +0800 users-MacBook-Pro.local (9150)] INFO : Installing Logger instrumentation
+[2022-01-25 17:51:45 +0800 users-MacBook-Pro.local (9150)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-01-25 17:51:45 +0800 users-MacBook-Pro.local (9150)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-01-25 17:51:45 +0800 users-MacBook-Pro.local (9150)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-01-25 17:51:45 +0800 users-MacBook-Pro.local (9150)] INFO : Installing ActiveJob instrumentation
+[2022-01-25 17:51:45 +0800 users-MacBook-Pro.local (9150)] INFO : Installing notifications based Action Controller instrumentation
+[2022-01-25 17:51:45 +0800 users-MacBook-Pro.local (9150)] INFO : Installing notification based Action View instrumentation
+[2022-01-25 17:51:45 +0800 users-MacBook-Pro.local (9150)] INFO : Installing notifications based Action Cable instrumentation
+[2022-01-25 17:51:45 +0800 users-MacBook-Pro.local (9150)] INFO : Finished instrumentation
+[2022-01-25 17:51:46 +0800 users-MacBook-Pro.local (9014)] INFO : Starting Agent shutdown
+[2022-01-25 17:51:49 +0800 users-MacBook-Pro.local (9154)] INFO : Starting the New Relic agent version 8.3.0 in "development" environment.
+[2022-01-25 17:51:49 +0800 users-MacBook-Pro.local (9154)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-25 17:51:49 +0800 users-MacBook-Pro.local (9154)] WARN : No configuration file found. Working directory = /Users/user/Desktop/cvwo-assignment/task-api
+[2022-01-25 17:51:49 +0800 users-MacBook-Pro.local (9154)] WARN : Looked in these locations (based on defaults): /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml.erb, /Users/user/.newrelic/newrelic.yml, /Users/user/newrelic.yml, /Users/user/.newrelic/newrelic.yml.erb, /Users/user/newrelic.yml.erb
+[2022-01-25 17:51:49 +0800 users-MacBook-Pro.local (9154)] INFO : Environment: development
+[2022-01-25 17:51:49 +0800 users-MacBook-Pro.local (9154)] INFO : No known dispatcher detected.
+[2022-01-25 17:51:49 +0800 users-MacBook-Pro.local (9154)] INFO : Application: development
+[2022-01-25 17:51:49 +0800 users-MacBook-Pro.local (9154)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-25 17:51:49 +0800 users-MacBook-Pro.local (9154)] INFO : Installing ActiveStorage 5 instrumentation
+[2022-01-25 17:51:49 +0800 users-MacBook-Pro.local (9154)] INFO : Installing notifications based Active Record instrumentation
+[2022-01-25 17:51:49 +0800 users-MacBook-Pro.local (9154)] INFO : Installing Net:HTTP Wrappers
+[2022-01-25 17:51:49 +0800 users-MacBook-Pro.local (9154)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-01-25 17:51:49 +0800 users-MacBook-Pro.local (9154)] INFO : Installing Rails 3+ middleware instrumentation
+[2022-01-25 17:51:49 +0800 users-MacBook-Pro.local (9154)] INFO : Installing Logger instrumentation
+[2022-01-25 17:51:49 +0800 users-MacBook-Pro.local (9154)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-01-25 17:51:49 +0800 users-MacBook-Pro.local (9154)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-01-25 17:51:49 +0800 users-MacBook-Pro.local (9154)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-01-25 17:51:49 +0800 users-MacBook-Pro.local (9154)] INFO : Installing ActiveJob instrumentation
+[2022-01-25 17:51:49 +0800 users-MacBook-Pro.local (9154)] INFO : Installing notifications based Action Controller instrumentation
+[2022-01-25 17:51:49 +0800 users-MacBook-Pro.local (9154)] INFO : Installing notification based Action View instrumentation
+[2022-01-25 17:51:49 +0800 users-MacBook-Pro.local (9154)] INFO : Installing notifications based Action Cable instrumentation
+[2022-01-25 17:51:49 +0800 users-MacBook-Pro.local (9154)] INFO : Finished instrumentation
+[2022-01-25 17:51:49 +0800 users-MacBook-Pro.local (9154)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-25 17:51:54 +0800 users-MacBook-Pro.local (9154)] WARN : Agent received a ForceDisconnectException from the server, disconnecting. (410: Gone)
+[2022-01-25 17:53:21 +0800 users-MacBook-Pro.local (9222)] INFO : Starting the New Relic agent version 8.3.0 in "development" environment.
+[2022-01-25 17:53:21 +0800 users-MacBook-Pro.local (9222)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-25 17:53:21 +0800 users-MacBook-Pro.local (9222)] WARN : No configuration file found. Working directory = /Users/user/Desktop/cvwo-assignment/task-api
+[2022-01-25 17:53:21 +0800 users-MacBook-Pro.local (9222)] WARN : Looked in these locations (based on defaults): /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml.erb, /Users/user/.newrelic/newrelic.yml, /Users/user/newrelic.yml, /Users/user/.newrelic/newrelic.yml.erb, /Users/user/newrelic.yml.erb
+[2022-01-25 17:53:21 +0800 users-MacBook-Pro.local (9222)] INFO : Environment: development
+[2022-01-25 17:53:21 +0800 users-MacBook-Pro.local (9222)] INFO : No known dispatcher detected.
+[2022-01-25 17:53:21 +0800 users-MacBook-Pro.local (9222)] INFO : Application: development
+[2022-01-25 17:53:21 +0800 users-MacBook-Pro.local (9222)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-25 17:53:21 +0800 users-MacBook-Pro.local (9222)] INFO : Installing ActiveStorage 5 instrumentation
+[2022-01-25 17:53:21 +0800 users-MacBook-Pro.local (9222)] INFO : Installing notifications based Active Record instrumentation
+[2022-01-25 17:53:21 +0800 users-MacBook-Pro.local (9222)] INFO : Installing Net:HTTP Wrappers
+[2022-01-25 17:53:21 +0800 users-MacBook-Pro.local (9222)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-01-25 17:53:21 +0800 users-MacBook-Pro.local (9222)] INFO : Installing Rails 3+ middleware instrumentation
+[2022-01-25 17:53:21 +0800 users-MacBook-Pro.local (9222)] INFO : Installing Logger instrumentation
+[2022-01-25 17:53:21 +0800 users-MacBook-Pro.local (9222)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-01-25 17:53:21 +0800 users-MacBook-Pro.local (9222)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-01-25 17:53:21 +0800 users-MacBook-Pro.local (9222)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-01-25 17:53:21 +0800 users-MacBook-Pro.local (9222)] INFO : Installing ActiveJob instrumentation
+[2022-01-25 17:53:21 +0800 users-MacBook-Pro.local (9222)] INFO : Installing notifications based Action Controller instrumentation
+[2022-01-25 17:53:21 +0800 users-MacBook-Pro.local (9222)] INFO : Installing notification based Action View instrumentation
+[2022-01-25 17:53:21 +0800 users-MacBook-Pro.local (9222)] INFO : Installing notifications based Action Cable instrumentation
+[2022-01-25 17:53:21 +0800 users-MacBook-Pro.local (9222)] INFO : Finished instrumentation
+[2022-01-25 17:53:30 +0800 users-MacBook-Pro.local (9231)] INFO : Starting the New Relic agent version 8.3.0 in "development" environment.
+[2022-01-25 17:53:30 +0800 users-MacBook-Pro.local (9231)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-25 17:53:30 +0800 users-MacBook-Pro.local (9231)] WARN : No configuration file found. Working directory = /Users/user/Desktop/cvwo-assignment/task-api
+[2022-01-25 17:53:30 +0800 users-MacBook-Pro.local (9231)] WARN : Looked in these locations (based on defaults): /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml.erb, /Users/user/.newrelic/newrelic.yml, /Users/user/newrelic.yml, /Users/user/.newrelic/newrelic.yml.erb, /Users/user/newrelic.yml.erb
+[2022-01-25 17:53:30 +0800 users-MacBook-Pro.local (9231)] INFO : Environment: development
+[2022-01-25 17:53:30 +0800 users-MacBook-Pro.local (9231)] INFO : No known dispatcher detected.
+[2022-01-25 17:53:30 +0800 users-MacBook-Pro.local (9231)] INFO : Application: development
+[2022-01-25 17:53:30 +0800 users-MacBook-Pro.local (9231)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-25 17:53:30 +0800 users-MacBook-Pro.local (9231)] INFO : Installing ActiveStorage 5 instrumentation
+[2022-01-25 17:53:30 +0800 users-MacBook-Pro.local (9231)] INFO : Installing notifications based Active Record instrumentation
+[2022-01-25 17:53:30 +0800 users-MacBook-Pro.local (9231)] INFO : Installing Net:HTTP Wrappers
+[2022-01-25 17:53:30 +0800 users-MacBook-Pro.local (9231)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-01-25 17:53:30 +0800 users-MacBook-Pro.local (9231)] INFO : Installing Rails 3+ middleware instrumentation
+[2022-01-25 17:53:30 +0800 users-MacBook-Pro.local (9231)] INFO : Installing Logger instrumentation
+[2022-01-25 17:53:30 +0800 users-MacBook-Pro.local (9231)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-01-25 17:53:30 +0800 users-MacBook-Pro.local (9231)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-01-25 17:53:30 +0800 users-MacBook-Pro.local (9231)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-01-25 17:53:30 +0800 users-MacBook-Pro.local (9231)] INFO : Installing ActiveJob instrumentation
+[2022-01-25 17:53:30 +0800 users-MacBook-Pro.local (9231)] INFO : Installing notifications based Action Controller instrumentation
+[2022-01-25 17:53:30 +0800 users-MacBook-Pro.local (9231)] INFO : Installing notification based Action View instrumentation
+[2022-01-25 17:53:30 +0800 users-MacBook-Pro.local (9231)] INFO : Installing notifications based Action Cable instrumentation
+[2022-01-25 17:53:30 +0800 users-MacBook-Pro.local (9231)] INFO : Finished instrumentation
+[2022-01-25 17:54:29 +0800 users-MacBook-Pro.local (9154)] INFO : Starting Agent shutdown
+[2022-01-25 17:54:33 +0800 users-MacBook-Pro.local (9257)] INFO : Starting the New Relic agent version 8.3.0 in "development" environment.
+[2022-01-25 17:54:33 +0800 users-MacBook-Pro.local (9257)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-25 17:54:33 +0800 users-MacBook-Pro.local (9257)] WARN : No configuration file found. Working directory = /Users/user/Desktop/cvwo-assignment/task-api
+[2022-01-25 17:54:33 +0800 users-MacBook-Pro.local (9257)] WARN : Looked in these locations (based on defaults): /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml.erb, /Users/user/.newrelic/newrelic.yml, /Users/user/newrelic.yml, /Users/user/.newrelic/newrelic.yml.erb, /Users/user/newrelic.yml.erb
+[2022-01-25 17:54:33 +0800 users-MacBook-Pro.local (9257)] INFO : Environment: development
+[2022-01-25 17:54:33 +0800 users-MacBook-Pro.local (9257)] INFO : No known dispatcher detected.
+[2022-01-25 17:54:33 +0800 users-MacBook-Pro.local (9257)] INFO : Application: development
+[2022-01-25 17:54:33 +0800 users-MacBook-Pro.local (9257)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-25 17:54:33 +0800 users-MacBook-Pro.local (9257)] INFO : Installing ActiveStorage 5 instrumentation
+[2022-01-25 17:54:33 +0800 users-MacBook-Pro.local (9257)] INFO : Installing notifications based Active Record instrumentation
+[2022-01-25 17:54:33 +0800 users-MacBook-Pro.local (9257)] INFO : Installing Net:HTTP Wrappers
+[2022-01-25 17:54:33 +0800 users-MacBook-Pro.local (9257)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-01-25 17:54:33 +0800 users-MacBook-Pro.local (9257)] INFO : Installing Rails 3+ middleware instrumentation
+[2022-01-25 17:54:33 +0800 users-MacBook-Pro.local (9257)] INFO : Installing Logger instrumentation
+[2022-01-25 17:54:33 +0800 users-MacBook-Pro.local (9257)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-01-25 17:54:33 +0800 users-MacBook-Pro.local (9257)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-01-25 17:54:33 +0800 users-MacBook-Pro.local (9257)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-01-25 17:54:33 +0800 users-MacBook-Pro.local (9257)] INFO : Installing ActiveJob instrumentation
+[2022-01-25 17:54:33 +0800 users-MacBook-Pro.local (9257)] INFO : Installing notifications based Action Controller instrumentation
+[2022-01-25 17:54:33 +0800 users-MacBook-Pro.local (9257)] INFO : Installing notification based Action View instrumentation
+[2022-01-25 17:54:33 +0800 users-MacBook-Pro.local (9257)] INFO : Installing notifications based Action Cable instrumentation
+[2022-01-25 17:54:33 +0800 users-MacBook-Pro.local (9257)] INFO : Finished instrumentation
+[2022-01-25 17:54:33 +0800 users-MacBook-Pro.local (9257)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-25 17:54:40 +0800 users-MacBook-Pro.local (9257)] WARN : Agent received a ForceDisconnectException from the server, disconnecting. (410: Gone)
+[2022-01-25 18:00:42 +0800 users-MacBook-Pro.local (9257)] INFO : Starting Agent shutdown
+[2022-01-25 18:00:48 +0800 users-MacBook-Pro.local (9361)] INFO : Starting the New Relic agent version 8.3.0 in "development" environment.
+[2022-01-25 18:00:48 +0800 users-MacBook-Pro.local (9361)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-25 18:00:48 +0800 users-MacBook-Pro.local (9361)] WARN : No configuration file found. Working directory = /Users/user/Desktop/cvwo-assignment/task-api
+[2022-01-25 18:00:48 +0800 users-MacBook-Pro.local (9361)] WARN : Looked in these locations (based on defaults): /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml, /Users/user/Desktop/cvwo-assignment/task-api/config/newrelic.yml.erb, /Users/user/Desktop/cvwo-assignment/task-api/newrelic.yml.erb, /Users/user/.newrelic/newrelic.yml, /Users/user/newrelic.yml, /Users/user/.newrelic/newrelic.yml.erb, /Users/user/newrelic.yml.erb
+[2022-01-25 18:00:48 +0800 users-MacBook-Pro.local (9361)] INFO : Environment: development
+[2022-01-25 18:00:48 +0800 users-MacBook-Pro.local (9361)] INFO : No known dispatcher detected.
+[2022-01-25 18:00:48 +0800 users-MacBook-Pro.local (9361)] INFO : Application: development
+[2022-01-25 18:00:48 +0800 users-MacBook-Pro.local (9361)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-25 18:00:48 +0800 users-MacBook-Pro.local (9361)] INFO : Installing ActiveStorage 5 instrumentation
+[2022-01-25 18:00:48 +0800 users-MacBook-Pro.local (9361)] INFO : Installing notifications based Active Record instrumentation
+[2022-01-25 18:00:48 +0800 users-MacBook-Pro.local (9361)] INFO : Installing Net:HTTP Wrappers
+[2022-01-25 18:00:48 +0800 users-MacBook-Pro.local (9361)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-01-25 18:00:48 +0800 users-MacBook-Pro.local (9361)] INFO : Installing Rails 3+ middleware instrumentation
+[2022-01-25 18:00:48 +0800 users-MacBook-Pro.local (9361)] INFO : Installing Logger instrumentation
+[2022-01-25 18:00:48 +0800 users-MacBook-Pro.local (9361)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-01-25 18:00:48 +0800 users-MacBook-Pro.local (9361)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-01-25 18:00:48 +0800 users-MacBook-Pro.local (9361)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-01-25 18:00:48 +0800 users-MacBook-Pro.local (9361)] INFO : Installing ActiveJob instrumentation
+[2022-01-25 18:00:48 +0800 users-MacBook-Pro.local (9361)] INFO : Installing notifications based Action Controller instrumentation
+[2022-01-25 18:00:48 +0800 users-MacBook-Pro.local (9361)] INFO : Installing notification based Action View instrumentation
+[2022-01-25 18:00:48 +0800 users-MacBook-Pro.local (9361)] INFO : Installing notifications based Action Cable instrumentation
+[2022-01-25 18:00:48 +0800 users-MacBook-Pro.local (9361)] INFO : Finished instrumentation
+[2022-01-25 18:00:48 +0800 users-MacBook-Pro.local (9361)] INFO : Doing deferred dependency-detection before Rack startup
