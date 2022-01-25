@@ -1,0 +1,15 @@
+.sidebar {
+    position: fixed;
+    height:100vh;
+    color:white;
+    background-color: #23232e;
+    display:flex;
+    flex-direction: column;
+    font-size:1.1rem;
+    /* overflow-y: hidden !important; */
+    overflow: scroll !important;
+}
+
+.nav-link {
+    color: white;
+}

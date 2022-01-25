@@ -1,0 +1,8 @@
+.hover-effect {
+    box-shadow: -1px 4px 20px 5px rgba(0,0,0,0.05);
+    transition:box-shadow 0.5s;
+}
+
+.hover-effect:hover {
+    box-shadow: -1px 4px 20px 5px rgba(0,0,0,0.16);
+}
