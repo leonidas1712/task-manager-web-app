@@ -1,7 +1,7 @@
 # leonidas1712-cvwo-final-submission
 A task manager web app written with React, Ruby on Rails and PostgreSQL.
 
-### Name: Huzaifa Raghav
+### Name: Leonidas Raghav
 ### Matriculation Number: A0229816W
 ---
 ### Link to Netlify app: https://huzaifa1712-taskmanager.netlify.app/
