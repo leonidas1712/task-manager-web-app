@@ -1,5 +1,7 @@
-# huzaifa1712-cvwo-final-submission
+# leonidas1712-cvwo-final-submission
 Repo containing deliverables for CVWO final submission
+
+A task manager web app written with React, Ruby on Rails and PostgreSQL.
 
 ### Name: Huzaifa Raghav
 ### Matriculation Number: A0229816W
